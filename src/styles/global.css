@@ -1,0 +1,115 @@
+:root {
+  --white: #ffffff;
+  --black: #0a0a0a;
+
+  --gray50: #f9fafb;
+  --gray100: #f3f4f6;
+  --gray200: #e5e7eb;
+  --gray300: #d1d5db;
+  --gray400: #9ca3af;
+  --gray500: #737373;
+  --gray600: #525252;
+  --gray700: #404040;
+
+  --neutral50: #fafafa;
+  --neutral100: #f5f5f5;
+  --neutral200: #e5e5e5;
+  --neutral400: #a3a3a3;
+  --neutral500: #737373;
+  --neutral600: #525252;
+  --neutral700: #404040;
+  --neutral900: #171717;
+  --neutral950: #0a0a0a;
+
+  --red50: #fef2f2;
+  --red200: #fecaca;
+  --red600: #dc2626;
+  --red700: #b91c1c;
+  --red800: #991b1b;
+
+  --green50: #f0fdf4;
+  --green200: #bbf7d0;
+  --green700: #15803d;
+
+  --amber50: #fffbeb;
+  --amber200: #fde68a;
+  --amber700: #a16207;
+
+  --indigo50: #eef2ff;
+  --indigo200: #c7d2fe;
+  --indigo500: #6366f1;
+  --indigo600: #4f46e5;
+  --indigo700: #4338ca;
+  --indigo800: #3730a3;
+
+  --yellow400: #facc15;
+}
+
+:root {
+  /* Font Family */
+  --font-family-base: 'Noto Sans', sans-serif;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Font Sizes + Line Heights */
+  --font-size-xs: 12px;
+  --line-height-xs: 16px;
+
+  --font-size-sm: 14px;
+  --line-height-sm: 20px;
+
+  --font-size-base: 16px;
+  --line-height-base: 24px;
+
+  --font-size-lg: 18px;
+  --line-height-lg: 28px;
+
+  --font-size-xl: 20px;
+  --line-height-xl: 28px;
+
+  --font-size-2xl: 24px;
+  --line-height-2xl: 32px;
+
+  --font-size-3xl: 30px;
+  --line-height-3xl: 36px;
+
+  --font-size-4xl: 36px;
+  --line-height-4xl: 40px;
+
+  --font-size-5xl: 48px;
+  --line-height-5xl: 48px;
+
+  --font-size-6xl: 60px;
+  --line-height-6xl: 60px;
+}
+
+:root {
+  /* Breakpoints */
+  --breakpoint-desktop: 1440px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-mobile: 375px;
+
+  /* Container - Desktop */
+  --container-desktop-max-width: 1280px;
+  --container-desktop-padding: 32px;
+  --container-desktop-columns: 12;
+  --container-desktop-column-gap: 32px;
+
+  /* Container - Tablet */
+  --container-tablet-max-width: 100%;
+  --container-tablet-padding: 32px;
+  --container-tablet-columns: 6;
+  --container-tablet-column-gap: 32px;
+
+  /* Container - Mobile */
+  --container-mobile-max-width: 100%;
+  --container-mobile-padding: 16px;
+  --container-mobile-columns: 4;
+  --container-mobile-column-gap: 16px;
+
+  /* Spacing Unit */
+  --spacing-unit: 4px;
+}
